@@ -1,0 +1,288 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.navbar{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.5);
+}
+.navbar div{
+  margin: 0 3%;
+  border-radius: 4px;
+}
+.select{
+  width: 13%;
+  height: 10%;
+}
+.search-bar{
+  width: 20%;
+}
+.search-bar input{
+  width: 83%;
+  border: 0;
+}
+.btn-container{
+  height: 47px;
+  position: relative;
+}
+.btn{
+  background-color:green;
+  border-radius: 6px;
+  color: white;
+  height: 64%;
+  position: absolute;
+  top:20%;
+}
+.parent{
+  display: flex;
+  flex-direction: column;
+}
+.child2 img{
+  width: 100%;
+}
+.sub-parent{
+  position: relative;
+  height: 680px;
+  
+}
+.child1{
+  position: absolute;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.5);
+}
+ 
+
+.child3{
+  display: flex;
+  height: 30px;
+ 
+  width: 98%;
+}
+.child3 > div {
+   padding-left: 49px;
+}
+.btn2{
+  margin-left: 77%;
+}
+.btn2 button:first-child{
+  height: 36px;
+  border-radius: 4px;
+  background: #68b1ea;
+  color: white;
+}
+.clip-container{
+  display: flex;
+  height: 325px;
+  
+  margin-top: 1%;
+  width: 99%;
+ 
+}
+.clip{
+  width: 25%;
+  height: 423px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+.r1 {
+  height: 200px;
+  width: 82%;
+  border-right: 1px solid grey;
+  border-left: 1px solid grey;
+  margin: auto;
+  
+}
+.r2 {
+  height: 200px;
+  width: 82%;
+  border-right: 1px solid grey;
+  border-left: 1px solid grey;
+  margin: auto;
+  
+}
+.clicked{
+  background: blue;
+}
+.video-container{
+  height: 200px;
+ 
+  width: 100%;
+  margin-top:132px;
+}
+.video{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.video div{
+  margin: 1%;
+}
+.info{
+  border: 1px solid black;
+  height: 250px;
+  margin-top: 20%;
+  display: flex;
+}
+.info div{ 
+  width: 71%;
+  margin: auto;
+}
+.info1 div:first-child{
+  height: 13%;
+  FONT-SIZE: xx-large;
+  margin: 17px 87px;
+  color: blue;
+}
+.info2 div:first-child{
+  height: 13%;
+  font-size: x-large;
+  margin-bottom: 31px;
+}
+
+.info3 div:first-child{
+  font-size: x-large;
+  margin-bottom: 30px;
+  margin-top: -53px;
+}
+.info4 div:first-child{
+  font-size: x-large;
+  margin-top: -52px;
+  margin-bottom: 28px;
+}
+
+.info5 div:first-child{
+  font-size: x-large;
+  margin-top: 15px;
+  margin-bottom: 19px;
+}
+.logos{
+  display: flex;
+}
+.mk1{
+  width: 171px;
+}
+.img1{
+  height: 24px;
+}
+.sp{
+  margin-left:5px;
+}
+.tab-vid{
+  display: hidden;
+}
+
+/* for tablets */
+@media screen and (max-width: 1000px) {
+  .sub-parent{
+    position: relative;
+    height: 290px;
+  }
+  .child1{
+    position: absolute;
+    top:0;
+    left:0;
+    background: rgba(255, 255, 255, 0.5);
+   
+
+  }
+  .child2{
+    
+    top:66px;
+    right:0;
+  }
+  .navbar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .navbar div{
+    border-radius: 4px;
+    margin-left: 8%;
+    margin-bottom: 1%;
+  }
+  .select{
+    width: 50%;
+    padding-right: 18px;
+  }
+  .search-bar{
+    width: 30%;
+    padding-left: 40px;
+  }
+  .btn{
+    margin-left: -32px;
+  }
+  .child3 {
+    margin-top: 163px;
+    display: flex;
+    height: 40px;
+    width: 85%;
+  }
+  .clip-container{
+    border: 1px solid red;
+    height: 700px;
+    margin-top: 61px;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .clip{
+    border: 1px solid red;
+    /* height: 700 px; */
+    display: flex;
+    overflow:visible;
+    width: 100%;
+    height: 235px;
+  }
+  .clip-grid{
+    height: 700px;
+    display: flex;
+    width: 100%;
+  }
+  .clip div{
+    margin: 0;
+    font-size: 12px;
+  }
+  /* .clicked {
+    background: blue;
+    width: 12px;
+  } */
+  .r2{
+    width:12px;
+  }
+  .video-container{
+    margin-top: 178px;
+  }
+  .btn2 {
+    margin-left: 83%;
+  }
+  .info{
+    display: flex;
+    margin-top: 130%;
+  }
+  .video{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .video div {
+    /* margin: 1%; */
+    /* margin-left: 7%; */
+  }
+  
+}
+/* position: absolute; */
