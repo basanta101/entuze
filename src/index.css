@@ -22,16 +22,27 @@ code {
   margin: 0 3%;
   border-radius: 4px;
 }
+.logo{
+  font-size: xx-large;
+  color: green;
+  padding-bottom: 4px;
+}
 .select{
   width: 13%;
   height: 10%;
 }
 .search-bar{
-  width: 20%;
+  width: 15%;
+  display: flex;
+  background:white;
 }
 .search-bar input{
   width: 83%;
   border: 0;
+}
+.searchIcon{
+  height: 17px;
+  margin-top: 4px;
 }
 .btn-container{
   height: 47px;
@@ -54,7 +65,7 @@ code {
 }
 .sub-parent{
   position: relative;
-  height: 680px;
+  height: 636px;
   
 }
 .child1{
@@ -81,6 +92,7 @@ code {
   border-radius: 4px;
   background: #68b1ea;
   color: white;
+  margin-left: -29px;
 }
 .clip-container{
   display: flex;
@@ -100,21 +112,24 @@ code {
 .r1 {
   height: 200px;
   width: 82%;
-  border-right: 1px solid grey;
-  border-left: 1px solid grey;
+  /* border-right: 1px solid grey;
+  border-left: 1px solid grey; */
   margin: auto;
   
+}
+.img{
+  width:202px;
 }
 .r2 {
   height: 200px;
   width: 82%;
-  border-right: 1px solid grey;
-  border-left: 1px solid grey;
+  /* border-right: 1px solid grey;
+  border-left: 1px solid grey; */
   margin: auto;
   
 }
 .clicked{
-  background: blue;
+  box-shadow: inset -1px -17px 30px #345a45;
 }
 .video-container{
   height: 200px;
@@ -135,21 +150,26 @@ code {
   height: 250px;
   margin-top: 20%;
   display: flex;
+  background: #000000c7;
+  color: white;
 }
 .info div{ 
   width: 71%;
   margin: auto;
+ 
 }
 .info1 div:first-child{
   height: 13%;
   FONT-SIZE: xx-large;
   margin: 17px 87px;
   color: blue;
+  margin-top: -22px;
 }
 .info2 div:first-child{
   height: 13%;
   font-size: x-large;
   margin-bottom: 31px;
+  margin-top: 8px;
 }
 
 .info3 div:first-child{
